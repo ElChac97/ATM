@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    background-image: url("NY.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+  }
+
+  header{
+        background-color: hsla(0, 0%, 9%, .8);
+        width:100%;
+        position: fixed;
+        top: 0;
+  }
+
+  .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+    
+    
+}
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+
+   
+}
+
+#clock{
+    display: flex;
+    justify-content: center;
+    padding: 2.5rem 2rem;
+   
+    
+    
+}
+.app{
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+
+}
+
+.frontpage{
+    display: flex;
+    height: 60vh;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+    height: 100%;
+    justify-content: center;  
+    background-color: hsla(0, 0%, 9%, .8);
+    border-radius: 50px;
+    margin: 5vh 15vw;
+}
+
+
+
+.userpass{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    height: 3.5rem;
+    width: 15rem;
+    border-radius: 25px;
+    border: none;
+    background: hsla(0, 0%, 31%, .5);
+    color: white;
+}
+
+::placeholder{
+    color: hsl(0, 0%, 31%,);
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+    width: 10rem;  
+    height: 3rem;  
+}
+
+label{
+    margin-bottom: 20px;
+    color: white;
+}
+
+input[type="submit"] {
+    width: 10em;
+    height: 3em;
+    background-color: #6c2f03;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+  }
+
+
+  input[type="checkbox"] {
+    width:  1rem;
+    height: 1rem;
+    margin-right: 5px;
+  }
+
+  footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    margin-top: 23.1vh ;
+    height: 10vh;
+  }
+
+  @media (min-width: 600px){
+    .welcome{
+        align-content: flex-start;
+        font-size: 2rem;
+        
+    }
+
+    .login{
+        margin: 5vh 20vw;
+    }
+
+    
+    input[type="submit"] {
+        margin: auto auto 10px;
+    }
+}
+    
+@media (min-width: 1000px){
+
+    .login{
+        margin: 5vh 30vw; 
+    }
+
+    input[type="submit"] {
+        margin: auto auto 10px;
+    }
+
+    .userpass{
+        height: 4rem;
+    }
+
+
+
+  
+}
+
+
+
+
+
+
